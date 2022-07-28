@@ -13,6 +13,9 @@
 		1755D07C2890D4EE00A7A9C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1755D07B2890D4EE00A7A9C4 /* Preview Assets.xcassets */; };
 		1755D07E2890D4EE00A7A9C4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1755D07D2890D4EE00A7A9C4 /* Persistence.swift */; };
 		1755D0812890D4EE00A7A9C4 /* Zleep.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1755D07F2890D4EE00A7A9C4 /* Zleep.xcdatamodeld */; };
+		1755D08D289140B900A7A9C4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1755D08C289140B900A7A9C4 /* Home.swift */; };
+		1755D08F289141A800A7A9C4 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1755D08E289141A800A7A9C4 /* HomeViewModel.swift */; };
+		1755D093289227E600A7A9C4 /* ButtonStyle1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1755D092289227E600A7A9C4 /* ButtonStyle1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		1755D07B2890D4EE00A7A9C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1755D07D2890D4EE00A7A9C4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		1755D0802890D4EE00A7A9C4 /* Zleep.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Zleep.xcdatamodel; sourceTree = "<group>"; };
+		1755D08C289140B900A7A9C4 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		1755D08E289141A800A7A9C4 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		1755D092289227E600A7A9C4 /* ButtonStyle1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 		1755D0732890D4EB00A7A9C4 /* Zleep */ = {
 			isa = PBXGroup;
 			children = (
+				1755D0902892278A00A7A9C4 /* Model */,
+				1755D08B28913FFD00A7A9C4 /* ViewModel */,
+				1755D08828913FBB00A7A9C4 /* View */,
 				1755D0742890D4EB00A7A9C4 /* ZleepApp.swift */,
 				1755D0762890D4EB00A7A9C4 /* ContentView.swift */,
 				1755D0782890D4ED00A7A9C4 /* Assets.xcassets */,
@@ -71,6 +80,46 @@
 				1755D07B2890D4EE00A7A9C4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1755D08828913FBB00A7A9C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1755D091289227C000A7A9C4 /* Components */,
+				1755D094289227F100A7A9C4 /* View */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1755D08B28913FFD00A7A9C4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1755D08E289141A800A7A9C4 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1755D0902892278A00A7A9C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1755D091289227C000A7A9C4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1755D092289227E600A7A9C4 /* ButtonStyle1.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		1755D094289227F100A7A9C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1755D08C289140B900A7A9C4 /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +193,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1755D07E2890D4EE00A7A9C4 /* Persistence.swift in Sources */,
+				1755D08F289141A800A7A9C4 /* HomeViewModel.swift in Sources */,
 				1755D0772890D4EB00A7A9C4 /* ContentView.swift in Sources */,
+				1755D08D289140B900A7A9C4 /* Home.swift in Sources */,
+				1755D093289227E600A7A9C4 /* ButtonStyle1.swift in Sources */,
 				1755D0812890D4EE00A7A9C4 /* Zleep.xcdatamodeld in Sources */,
 				1755D0752890D4EB00A7A9C4 /* ZleepApp.swift in Sources */,
 			);
