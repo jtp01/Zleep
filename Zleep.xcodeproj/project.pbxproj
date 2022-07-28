@@ -16,6 +16,16 @@
 		1755D08D289140B900A7A9C4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1755D08C289140B900A7A9C4 /* Home.swift */; };
 		1755D08F289141A800A7A9C4 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1755D08E289141A800A7A9C4 /* HomeViewModel.swift */; };
 		1755D093289227E600A7A9C4 /* ButtonStyle1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1755D092289227E600A7A9C4 /* ButtonStyle1.swift */; };
+		1755D09728924D4B00A7A9C4 /* ButtonStyle2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1755D09628924D4B00A7A9C4 /* ButtonStyle2.swift */; };
+		1755D09B28925CF600A7A9C4 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1755D09A28925CF600A7A9C4 /* Timer.swift */; };
+		1755D09D28925D2200A7A9C4 /* SetSleepAlarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1755D09C28925D2200A7A9C4 /* SetSleepAlarm.swift */; };
+		1755D09F28925D2F00A7A9C4 /* SleepAlarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1755D09E28925D2F00A7A9C4 /* SleepAlarm.swift */; };
+		1755D0A128925D5D00A7A9C4 /* Cancel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1755D0A028925D5D00A7A9C4 /* Cancel.swift */; };
+		1755D0A328926F6E00A7A9C4 /* AlarmSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1755D0A228926F6E00A7A9C4 /* AlarmSet.swift */; };
+		1755D0A52892716500A7A9C4 /* CameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1755D0A42892716500A7A9C4 /* CameraButton.swift */; };
+		1755D0A72892779B00A7A9C4 /* TextFieldCancel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1755D0A62892779B00A7A9C4 /* TextFieldCancel.swift */; };
+		1755D0A92892783300A7A9C4 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1755D0A82892783300A7A9C4 /* Settings.swift */; };
+		1755D0AB289278E000A7A9C4 /* Onboarding1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1755D0AA289278E000A7A9C4 /* Onboarding1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +39,16 @@
 		1755D08C289140B900A7A9C4 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		1755D08E289141A800A7A9C4 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		1755D092289227E600A7A9C4 /* ButtonStyle1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle1.swift; sourceTree = "<group>"; };
+		1755D09628924D4B00A7A9C4 /* ButtonStyle2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle2.swift; sourceTree = "<group>"; };
+		1755D09A28925CF600A7A9C4 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		1755D09C28925D2200A7A9C4 /* SetSleepAlarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetSleepAlarm.swift; sourceTree = "<group>"; };
+		1755D09E28925D2F00A7A9C4 /* SleepAlarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepAlarm.swift; sourceTree = "<group>"; };
+		1755D0A028925D5D00A7A9C4 /* Cancel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cancel.swift; sourceTree = "<group>"; };
+		1755D0A228926F6E00A7A9C4 /* AlarmSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmSet.swift; sourceTree = "<group>"; };
+		1755D0A42892716500A7A9C4 /* CameraButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraButton.swift; sourceTree = "<group>"; };
+		1755D0A62892779B00A7A9C4 /* TextFieldCancel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCancel.swift; sourceTree = "<group>"; };
+		1755D0A82892783300A7A9C4 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		1755D0AA289278E000A7A9C4 /* Onboarding1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +130,10 @@
 			isa = PBXGroup;
 			children = (
 				1755D092289227E600A7A9C4 /* ButtonStyle1.swift */,
+				1755D09628924D4B00A7A9C4 /* ButtonStyle2.swift */,
+				1755D0A228926F6E00A7A9C4 /* AlarmSet.swift */,
+				1755D0A42892716500A7A9C4 /* CameraButton.swift */,
+				1755D0A62892779B00A7A9C4 /* TextFieldCancel.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -117,7 +141,13 @@
 		1755D094289227F100A7A9C4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1755D0AA289278E000A7A9C4 /* Onboarding1.swift */,
 				1755D08C289140B900A7A9C4 /* Home.swift */,
+				1755D09A28925CF600A7A9C4 /* Timer.swift */,
+				1755D09C28925D2200A7A9C4 /* SetSleepAlarm.swift */,
+				1755D09E28925D2F00A7A9C4 /* SleepAlarm.swift */,
+				1755D0A028925D5D00A7A9C4 /* Cancel.swift */,
+				1755D0A82892783300A7A9C4 /* Settings.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -192,13 +222,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1755D0A328926F6E00A7A9C4 /* AlarmSet.swift in Sources */,
+				1755D09D28925D2200A7A9C4 /* SetSleepAlarm.swift in Sources */,
 				1755D07E2890D4EE00A7A9C4 /* Persistence.swift in Sources */,
 				1755D08F289141A800A7A9C4 /* HomeViewModel.swift in Sources */,
+				1755D09F28925D2F00A7A9C4 /* SleepAlarm.swift in Sources */,
 				1755D0772890D4EB00A7A9C4 /* ContentView.swift in Sources */,
+				1755D0A52892716500A7A9C4 /* CameraButton.swift in Sources */,
 				1755D08D289140B900A7A9C4 /* Home.swift in Sources */,
+				1755D0A72892779B00A7A9C4 /* TextFieldCancel.swift in Sources */,
 				1755D093289227E600A7A9C4 /* ButtonStyle1.swift in Sources */,
+				1755D0A92892783300A7A9C4 /* Settings.swift in Sources */,
 				1755D0812890D4EE00A7A9C4 /* Zleep.xcdatamodeld in Sources */,
+				1755D09B28925CF600A7A9C4 /* Timer.swift in Sources */,
+				1755D0AB289278E000A7A9C4 /* Onboarding1.swift in Sources */,
+				1755D0A128925D5D00A7A9C4 /* Cancel.swift in Sources */,
 				1755D0752890D4EB00A7A9C4 /* ZleepApp.swift in Sources */,
+				1755D09728924D4B00A7A9C4 /* ButtonStyle2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
