@@ -18,7 +18,7 @@ struct AlarmSet: View {
         
         Text(timeRemaining)
                 .font(.system(size: 20, weight: .light))
-        //Progress bar
+        //Progress bar here
             
         }
     }

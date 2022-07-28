@@ -13,7 +13,11 @@ struct SleepAlarm: View {
             Text("Night Sleep")
                 .font(.system(size: 32, weight: .bold))
             AlarmSet()
-            CameraButton()
+            Button(action: {
+                
+            }, label: {
+                CameraButton()
+            })
             
         }
     }

@@ -14,7 +14,11 @@ struct Cancel: View {
                 .font(.system(size: 32, weight: .bold))
                 .frame(width: 280, height: 80, alignment: .center)
             TextFieldCancel()
-            ButtonStyle2(buttonTitle: "Submit")
+            Button(action: {
+                
+            }, label: {
+                ButtonStyle2(buttonTitle: "Submit")
+            })
         }
     }
 }
