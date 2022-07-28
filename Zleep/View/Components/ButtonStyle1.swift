@@ -18,7 +18,7 @@ struct ButtonStyle1: View {
                 .frame(maxWidth: 300)
                 .foregroundColor(Color("GreyishBlue"))
                 .shadow(radius: 4, x: 3, y: 4)
-            VStack(alignment: .leading){
+            VStack(alignment: .leading, spacing: 18){
               Text(buttonTitle)
                   .font(.system(size: 32, weight: .bold))
                   .frame(width: 240,height: 20, alignment: .leading)
@@ -28,6 +28,7 @@ struct ButtonStyle1: View {
                   .frame(width: 240, height: 60, alignment: .leading)
                     }
             .foregroundColor(.black)
+            .multilineTextAlignment(.leading)
                 }
             }
         }

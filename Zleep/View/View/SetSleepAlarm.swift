@@ -13,6 +13,7 @@ struct SetSleepAlarm: View {
             Text("When do you want to wake up?")
                 .font(.system(size: 32, weight: .bold))
                 .frame(width: 300, height: 80, alignment: .center)
+                .multilineTextAlignment(.center)
             
             Button(action: {
                 

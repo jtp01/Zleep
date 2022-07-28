@@ -13,13 +13,13 @@ struct Home: View {
             Button(action: {
                 
             }, label: {
-                ButtonStyle1(buttonTitle: "Night Sleep", buttonDesc: "Time for night time sleep. Let’s get ready to sleep and wake up like a king")
+                ButtonStyle1(buttonTitle: "Night Sleep", buttonDesc: "Time for night time sleep.       Let’s get ready to sleep and   wake up like a king")
             })
             
             Button(action: {
                 
             }, label: {
-                ButtonStyle1(buttonTitle: "Power Nap", buttonDesc: "Are you feeling sleepy? 30 minutes nap should help you to feel more energized")
+                ButtonStyle1(buttonTitle: "Power Nap", buttonDesc: "Are you feeling sleepy?               30 minutes nap should help    you to feel more energized")
                     .frame(alignment:.leading)
             })
             
